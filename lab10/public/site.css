@@ -1,0 +1,70 @@
+body{
+    background-color: seashell;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#idprivate{
+    background-color: burlywood;
+    margin-top:50px;
+    height:210px;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    border-radius:5px;
+    box-shadow: 5px 8px;
+}
+
+#idLoginTitle{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formDiv{
+    padding-left: 20px;
+}
+
+input{
+    vertical-align: top;
+    height:20px;
+}
+
+input:hower{
+    color:blue;
+}
+
+.divpassword{
+    padding-top: 10px;
+}
+
+.divbutton{
+    padding-top: 10px;
+}
+
+button{
+    color:blueviolet;
+    background-color: chartreuse;
+    width: 100px;
+    height: 27px;
+    border-radius:5px;
+}
+
+button:hover{
+    background-color: darkorange;
+    color:yellowgreen;
+}
+
+.divbutton{
+    padding-bottom:30px;
+}
+
+.privateDetails{
+    display: inline-block;
+}
+
+.detailUsername h2, .detailPassword h2, .detailLastname h2, .detailProfession h2, .detailBio h2{
+    display: inline-block;
+}
+
+#idMessage{
+    color:red;
+}

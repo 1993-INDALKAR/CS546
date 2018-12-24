@@ -1,0 +1,19 @@
+{
+  "name": "cs546_lab9",
+  "version": "1.0.0",
+  "description": "CS-546 Lab9",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harish Indalkar 10441759",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "start": "^5.1.0"
+  }
+}

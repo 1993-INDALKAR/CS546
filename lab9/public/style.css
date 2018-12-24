@@ -1,0 +1,94 @@
+  #idForm{
+            padding-top: 50px;
+        }
+
+        #idForm label,textarea{
+            vertical-align: middle;
+        }
+
+        #idForm label{
+            font-size: 30px;
+        }
+
+        #idForm textarea{
+             border-radius: 5px;
+             width:200px;
+        }
+
+        footer{
+             
+            bottom: 0;
+            position: fixed;
+             
+        }
+
+        .result{
+            height:200px;
+            box-shadow: 5px 5px;
+            border-radius:5px;
+            background-color: beige;
+            background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+            width: 40%;
+            margin: 0 auto;
+            margin-top:20px;
+            overflow: auto;
+
+        }
+
+        .error{
+            color:red;
+            text-align:center;
+        }
+
+        .result h2{
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+
+
+
+        #idForm button{
+            font-size: 20px;
+            vertical-align: bottom;
+            color:blue;
+            background-color: yellowgreen;
+            width: 120px;
+            height:40px;
+            border-radius: 5px;
+        }
+
+#idForm button:hover{
+    background-color: yellow;
+}
+
+
+.formDiv{
+            text-align: center;
+            height:200px;
+            box-shadow: 5px 5px;
+            border-radius:5px;
+            background-color: beige;
+            background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+            width: 40%;
+            margin: 0 auto;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    text-align:center;
+    margin-top:110px;
+    text-decoration: underline;
+}
+        
+.is-palindrome{
+    color: #0000FF;
+}
+
+.not-palindrome{
+    color : #FF0000;
+}
+
